@@ -1,0 +1,141 @@
+/* title section */
+#title {
+  background-color: #FFEF78;
+}
+
+#navbar {
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+h3 {
+  font-family: "Merriweather";
+}
+
+.heading {
+  font-family: Merriweather, serif;
+  width: 75%;
+}
+
+.nav-item {
+  padding: 0 0.5rem;
+}
+
+.shawn {
+  position: relative;
+  padding-bottom: 7%;
+  width: 45%;
+  transform: rotate(20deg);
+  z-index: 1;
+}
+/* Features Section */
+#features {
+  color: white;
+  background-attachment: fixed;
+  background-image: url("C:\\Users\\Shawn Danyy\\OneDrive\\Desktop\\Web Development\\bootstrap\\TinDog-Start-master\\images\\ShawnBack.jpg");
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  bottom: 150px;
+  z-index: 2;
+}
+
+p {
+  font-weight: lighter;
+}
+
+.fas {
+  color: #FFEF78;
+  margin-bottom: 5%;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+.testimonial-image{
+  border-radius: 100%;
+  position: relative;
+  left: 5%;
+}
+em{
+  position: relative;
+  left: 5%;
+}
+.carousel-item{
+  padding: 3% 15%;
+  text-align: center;
+}
+
+#testimonials{
+  position: relative;
+  bottom: 150px;
+  padding: 4%;
+  background-color: #FFEF78;
+}
+
+.testimonial-text{
+  font-family: Merriweather, serif;
+}
+
+#press{
+  margin: 5% 4%;
+}
+.logo{
+margin-bottom: 6%;
+}
+/* Pricing Section */
+.pricing-head{
+  text-align: center;
+}
+.price-row{
+  padding: 5% 3%;
+}
+/* footer section */
+#cta{
+  padding: 15% 0;
+    background-color: #FFEF78;
+    text-align: center;
+}
+.cta-head{
+  font-family: Merriweather, serif;
+  padding-bottom:2%;
+}
+
+#footer{
+  padding: 5% 0;
+  text-align: center;
+}
+.footer-icon{
+  margin-left: 1%;
+}
+/* Mobile/Tab View */
+
+@media (max-width:990px) {
+  .shawn {
+    padding-top: 7%;
+    transform: rotate(0deg);
+    position: static;
+    right: 10%;
+  }
+
+  #title {
+    font-size: 50px;
+    text-align: center;
+    padding: 15% 0 30%;
+  }
+
+  .heading{
+    position: relative;
+    left: 10%;
+  }
+  .navbar-nav{
+    font-size: 50%;
+    text-align: right;
+  }
+  .nav-item{
+    padding: 0;
+  }
+}
